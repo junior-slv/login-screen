@@ -1,12 +1,13 @@
 import React from 'react'
 import GoogleLogin from 'react-google-login'
+import Main from './Components/Main'
  
 
 const App = () => {
   return (
-    <div className="container">
-
-    </div>
+    <>
+      <Main/>
+    </>
   )
 }
 
