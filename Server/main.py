@@ -12,9 +12,9 @@ class User(BaseModel):
 def connect_to_database():
     return mysql.connector.connect(
         host="localhost",
-        user="username",
-        password="password",
-        database="database_name"
+        user="root",
+        password="123",
+        database="login-teste"
     )
 
 @app.get("/")
